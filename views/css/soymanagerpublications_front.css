@@ -1,0 +1,38 @@
+.soy-contenedor-publicaciones {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div.soy-contenedor-publicacion{
+    display: flex;
+    display: -ms-flexbox;
+    align-items: center;
+    padding: 5px;
+    width: 19.2%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    opacity: 0.7;
+    justify-content: center;
+}
+div.soy-contenedor-publicacion:hover{
+    opacity: 1;
+}
+
+#soymanagerpublicationes_vistoen{
+    width: 100%;
+}
+
+#soymanagerpublicationes_vistoen > span:nth-child(1) {
+    font-weight: bold;
+}
+
+
+div.soy-contenedor-publicacion img{
+    width: 100%;
+}
+
+div.soy-contenedor-publicacion:nth-child(5n+5) {
+  margin-right: 0;
+}

@@ -1,0 +1,12 @@
+/*
+CSS PARA EL TPL SOYMODULO_INFO.TPL
+*/
+
+.soymodulo_info_modulo {
+    display: flex;
+    align-items: center;
+}
+
+#soymodulo_textos {
+    margin-left: 15px;
+}
